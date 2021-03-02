@@ -1,6 +1,7 @@
 # curtain.nvim
 
 curtain.nvim is a neovim plugin to resize windows easily and intuitively.
+
 **UNDER DEVELOPMENT**
 
 https://user-images.githubusercontent.com/5582459/109670519-89bc1080-7bb6-11eb-94ea-645ef8eb7a38.mp4
