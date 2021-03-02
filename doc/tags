@@ -1,0 +1,6 @@
+:GoCover	go-coverage.txt	/*:GoCover*
+go-coverage	go-coverage.txt	/*go-coverage*
+go-coverage-commands	go-coverage.txt	/*go-coverage-commands*
+go-coverage-highlights	go-coverage.txt	/*go-coverage-highlights*
+hl-goCoverageCovered	go-coverage.txt	/*hl-goCoverageCovered*
+hl-goCoverageUncovered	go-coverage.txt	/*hl-goCoverageUncovered*

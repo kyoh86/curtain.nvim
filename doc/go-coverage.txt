@@ -1,0 +1,43 @@
+curtain.nvim.txt: plugin to show the coverages for the Go programming language
+
+==============================================================================
+INTRODUCTION                                                    *curtain.nvim*
+
+vim-curtain.nvim is a plugin to show the coverages for the Go programming
+language.
+
+This plugin is extracted from
+[gopher.vim](https://github.com/arp242/gopher.vim). See `LICENSE`.
+
+==============================================================================
+COMMANDS                                               *curtain.nvim-commands*
+
+:Curtain                                                             *:Curtain*
+        Enter windows resizing mode.
+
+==============================================================================
+KEYMAPS                                                     *curtain.nvim-map*
+
+  'h'                                                       *curtain.nvim-n_h*
+  'j'                                                       *curtain.nvim-n_j*
+  'k'                                                       *curtain.nvim-n_k*
+  'l'                                                       *curtain.nvim-n_l*
+  'H'                                                       *curtain.nvim-n_H*
+  'J'                                                       *curtain.nvim-n_J*
+  'K'                                                       *curtain.nvim-n_K*
+  'L'                                                       *curtain.nvim-n_L*
+  '<Left>'                                            *curtain.nvim-n_<Left>'*
+  '<Down>'                                            *curtain.nvim-n_<Down>'*
+  '<Up>'                                                *curtain.nvim-n_<Up>'*
+  '<Right>'                                          *curtain.nvim-n_<Right>'*
+
+        TODO: write details
+
+==============================================================================
+HIGHLIGHTS                                           *curtain.nvim-highlights*
+
+CurtainWindow                                               *hl-CurtainWindow*
+
+        TODO: write details
+
+vim:tw=78:ts=8:sts=8:sw=8:ft=help:norl:expandtab
