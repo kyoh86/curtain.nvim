@@ -1,5 +1,5 @@
 " curtain.vim
-" Resize windows easily like open and close a curtain.
+" Resize windows easily like a curtain.
 "
 " AUTHOR: kyoh86 <me@kyoh86.dev>
 " LICENSE: MIT

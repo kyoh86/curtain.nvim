@@ -12,4 +12,4 @@ let g:loaded_curtain = 1
 highlight default link CurtainWindow NONE
 
 command! Curtain call curtain#start()
-nnoremap <plug>(curtain-start) <cmd>call curtain#start()<cr>
+nnoremap <silent> <plug>(curtain-start) <cmd>call curtain#start()<cr>
