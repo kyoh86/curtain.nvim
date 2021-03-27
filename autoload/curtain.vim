@@ -200,6 +200,7 @@ function! s:set_option(float_winid, float_bufnr) abort
   " set options on the buffer
   call nvim_buf_set_option(a:float_bufnr, 'filetype', 'curtain')
   call nvim_buf_set_option(a:float_bufnr, 'buftype', 'nofile')
+  call nvim_buf_set_option(a:float_bufnr, 'modifiable', v:false)
   call nvim_win_set_option(a:float_winid, 'cursorline', v:false)
   call nvim_win_set_option(a:float_winid, 'cursorcolumn', v:false)
   call nvim_win_set_option(a:float_winid, 'scrolloff', 0)
