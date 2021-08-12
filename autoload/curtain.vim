@@ -268,7 +268,7 @@ function! curtain#start()
   let l:winnum = 0
   for l:winnr in range(1, winnr('$'))
     let l:type = win_gettype(l:winnr)
-    if l:type ==# "autocmd" || l:type ==# "preview" || l:type ==# "command" || l:type ==# ""
+    if l:type ==# "autocmd" || l:type ==# "quickfix" || l:type ==# "preview" || l:type ==# "command" || l:type ==# ""
       let l:winnum = l:winnum + 1
     endif
   endfor
