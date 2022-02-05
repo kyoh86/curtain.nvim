@@ -181,7 +181,7 @@ function! s:set_keymap(under_winid, float_winid, float_bufnr) abort
 
   if l:winnrs['left'] isnot l:winnrs['cur']
     call nvim_buf_set_keymap(a:float_bufnr, 'n', s:keys['Focus left'], '<cmd>call <sid>leave_float_win(' . a:float_bufnr . ', v:false)<cr><cmd>call <sid>focus(' . l:winnrs['left'] . ')<cr>', l:opt)
-    call nvim_buf_set_keymap(a:float_bufnr, 'n', s:keys['Increase left'], '<cmd>call <sid>fix_width({'.l:winnrs['cur'].':0,'.l:winnrs['left'].':0})<cr><cmd><sid>wincmd(' . l:winnrs['left'] . ', "<")<cr><cmd>call <sid>set_guide(' . a:under_winid . ', ' . a:float_winid . ', ' . a:float_bufnr . ')<cr><cmd>call <sid>release_width()<cr>', l:opt)
+    call nvim_buf_set_keymap(a:float_bufnr, 'n', s:keys['Increase left'], '<cmd>call <sid>fix_width({'.l:winnrs['cur'].':0,'.l:winnrs['left'].':0})<cr><cmd>call <sid>wincmd(' . l:winnrs['left'] . ', "<")<cr><cmd>call <sid>set_guide(' . a:under_winid . ', ' . a:float_winid . ', ' . a:float_bufnr . ')<cr><cmd>call <sid>release_width()<cr>', l:opt)
     call nvim_buf_set_keymap(a:float_bufnr, 'n', s:keys['Decrease left'], '<cmd>call <sid>fix_width({'.l:winnrs['cur'].':0,'.l:winnrs['left'].':0})<cr><cmd>call <sid>wincmd(' . l:winnrs['left'] . ', ">")<cr><cmd>call <sid>set_guide(' . a:under_winid . ', ' . a:float_winid . ', ' . a:float_bufnr . ')<cr><cmd>call <sid>release_width()<cr>', l:opt)
   endif
 
